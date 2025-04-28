@@ -173,6 +173,8 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 
+/*Image-Container*/
+
 .img-container{
     display: flex;
     flex-direction: column;
@@ -209,4 +211,11 @@ body{
     height: 100px;
     width: 100px;
     border-radius: 10px;
+}
+
+/*Info-Container*/
+.info-container{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
 }
