@@ -218,4 +218,52 @@ body{
     display: flex;
     flex-direction: column;
     grid-column-start: 2;
+    background-color: #fff;
+    padding: 100px 0 0 0;
 }
+
+/*ratings*/
+
+.ratings
+{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.ratings .star-container .rated{
+    color: #F8C94D;
+}
+
+.ratings p{
+    color: #8E8E8E;
+}
+
+
+/*item-info-container*/
+
+.item-info-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-info-container h1{
+    font-size: 36px;
+    color: #333333;
+    margin: 0 0 12px 0;
+}
+
+.item-info-container p{
+    font-size: 16px;
+    color: #8E8E8E;
+    margin: 0 0 12px 0;
+}
+
+.item-info-container h2{
+    font-size: 24px;
+    color:  #4A90E2;
+    margin: 8px 0 0 0;
+}
+
+
+
